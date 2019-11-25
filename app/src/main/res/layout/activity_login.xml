@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <in.arjsna.passcodeview.PassCodeView
+        android:id="@+id/pass_code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25.0dp"
+        app:digit_size="30.0dp"
+        app:digits="4"
+        app:empty_drawable="@drawable/empty_dot"
+        app:filled_drawable="@drawable/filled_dot"
+        android:layout_marginTop="150dp"
+        app:key_text_size="30.0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

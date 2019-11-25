@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_padding">10dp</dimen>
+    <dimen name="key_stroke_width">10dp</dimen>
+    <dimen name="key_text_size">10dp</dimen>
+    <dimen name="indicator_radius">10dp</dimen>
+    <dimen name="indicator_stroke_width">10dp</dimen>
+</resources>
